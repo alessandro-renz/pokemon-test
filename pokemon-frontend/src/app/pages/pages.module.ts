@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ViewComponent } from './view/view.component';
+import { PokemonCardComponent } from '../components/pokemon-card/pokemon-card.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ViewComponent } from './view/view.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    PokemonCardComponent
   ]
 })
 export class PagesModule { }

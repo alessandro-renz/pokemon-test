@@ -1,3 +1,19 @@
-<p>home works!</p>
-<a [routerLink]="['view', 'bad']">view</a>
-<hr>
+<section id="home">
+    <div class="introduction">
+        <img src="assets/images/inicie.png" alt="logo inicie">
+        <h1>Explore o mundo <br>dos <span>Pokémons</span></h1>
+        <p>Descubra todas as espécies de Pokémons</p>
+        <div class="input-search">
+            <input type="search">
+            <button type="button">Buscar</button>
+        </div>
+    </div>
+    <div class="pokemon-cards">
+        <img src="assets/images/img-layout.png" alt="" class="">
+        <img src="assets/images/img-layout.png" alt="" class="">
+        <img src="assets/images/pokemon-cards.png" alt="Pokemon logo" class="cards">
+    </div>
+    <div class="pokemons-bottom">
+        <app-pokemon-card></app-pokemon-card>       
+    </div>
+</section>
